@@ -22,12 +22,20 @@ app.controller('ListController', function ($scope, $stateParams,LocalStorage,And
 	$scope.listItems =  LocalStorage.getItems(id);
 	
 	$scope.addItem = function () {
+		if(!this.newItem || this.newItem == "") return;
+		
 		$scope.listItems = LocalStorage.addItem(id,this.newItem);
 		this.newItem="";
 	}
 
 	$scope.removeItem = function ($index) {
 		$scope.listItems=LocalStorage.removeItem(id, $index);
+		
+		//Schedule notification if list is completed after deleting the last not completed item
+		var isCompleted = this.checkForCompletedList();
+		if(isCompleted && $scope.setting.isNotify){
+			AndroidUtils.schedleNotification($scope.listTitle);
+		}
 	}
 
 	//mark item as DONE
@@ -36,7 +44,6 @@ app.controller('ListController', function ($scope, $stateParams,LocalStorage,And
 		
 		//Vibrate device
 		var item = $scope.listItems[$index];
-		console.log($scope.setting);
 		
 		if(item.done && $scope.setting.isVibrate){
 			AndroidUtils.vibrate();

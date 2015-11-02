@@ -21,7 +21,6 @@ angular.module('starter', ['ionic','LocalStorageModule','ngCordova','starter.loc
 		}
 	});
 })
-
 .config(function ($stateProvider, $urlRouterProvider, localStorageServiceProvider) {
 	$stateProvider
 		.state('app', {
@@ -51,7 +50,6 @@ angular.module('starter', ['ionic','LocalStorageModule','ngCordova','starter.loc
 	// if none of the above states are matched, use this as the fallback
 	$urlRouterProvider.otherwise('/app/list/1');
 
-//	localStorageServiceProvider
-//		.setPrefix('ionicSideMenu-pate0359')
-//		.setNotify(true, true);
+	localStorageServiceProvider
+		.setNotify(true, true);
 });
