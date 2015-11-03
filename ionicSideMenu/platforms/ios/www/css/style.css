@@ -1,0 +1,40 @@
+/* Empty. Add your own CSS if you like */
+.item-done {
+  text-decoration:  line-through;	
+}
+
+.margin-right-10{	
+	margin-right: 10px;
+}
+
+.margin-right-5{	
+	margin-right: 5px;
+}
+
+.hideSeparator
+{
+border-top: 0px;
+border-left: 0px;
+border-right: 0px;
+border-bottom: 0px;
+}
+
+.item-divider
+{
+	background-color: #555;
+}
+
+
+.my-menu {
+  background-color: #555;	
+}
+
+
+/*
+.my-menu .item, .my-menu .item-content, .my-menu .item-complex{
+  background-color: #444;
+	
+  color: #FFF;
+  border-color: rgba(0,0,0,0);
+}
+*/

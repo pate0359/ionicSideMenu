@@ -1,0 +1,17 @@
+<ion-view view-title="{{listTitle}}">
+	<ion-content>
+		<ion-list can-swipe="listCanSwipe">
+			<ion-item ng-repeat="item in listItems" ng-click="markDone($index)" ng-tap="markDone($index)" ng-class="{'item-done': item.done}">
+				<i ng-if="item.done" class="icon ion-checkmark margin-right-10"></i>		
+				{{item.title}}
+				<ion-option-button class="button-assertive icon ion-trash-a" ng-click="removeItem($index)">
+    			</ion-option-button>
+			</ion-item>
+		</ion-list>
+	</ion-content>
+
+	<ion-footer-bar>
+		<input placeholder="Add item in {{listTitle}}" type="text" ng-model="newItem" name="newItem" required/>
+		<button class="button button-outline button-dark pull-right" ng-click="addItem()">Add Item</button>
+	</ion-footer-bar>
+</ion-view>
