@@ -1,0 +1,39 @@
+/* Empty. Add your own CSS if you like */
+
+/*Item Completed*/
+.item-done {
+	text-decoration: line-through;
+}
+
+/*For Footer textInput and button*/
+.fillWidth {
+	width: 100%;
+}
+
+/*For Menu*/
+.my-menu {
+	background-color: #555;
+}
+
+.item-divider {
+	background-color: #555;
+}
+.hideSeparator {
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-bottom: 0px;
+}
+
+/*Margin*/
+.margin-right-10 {
+	margin-right: 10px;
+}
+
+.margin-right-5 {
+	margin-right: 5px;
+}
+
+.margin-bottom-10 {
+	margin-bottom: 10px;
+}

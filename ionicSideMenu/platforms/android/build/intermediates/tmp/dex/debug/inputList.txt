@@ -1,0 +1,5 @@
+/Applications/MAMP/htdocs/Semester3/HTML5MobileApp/ionicSideMenu/ionicSideMenu/platforms/android/build/intermediates/classes/debug
+/Applications/MAMP/htdocs/Semester3/HTML5MobileApp/ionicSideMenu/ionicSideMenu/platforms/android/build/intermediates/pre-dexed/debug/support-annotations-23.1.0-12ea6868a9f89b1da426f43b4a5a659b77628256.jar
+/Applications/MAMP/htdocs/Semester3/HTML5MobileApp/ionicSideMenu/ionicSideMenu/platforms/android/build/intermediates/pre-dexed/debug/classes-831ae36e41ed7dfcc52a3c3a979e92274da45200.jar
+/Applications/MAMP/htdocs/Semester3/HTML5MobileApp/ionicSideMenu/ionicSideMenu/platforms/android/build/intermediates/pre-dexed/debug/internal_impl-23.1.0-c18b0e681fc8c4ba2a4fc54eb5128fb3d3a3b0a0.jar
+/Applications/MAMP/htdocs/Semester3/HTML5MobileApp/ionicSideMenu/ionicSideMenu/platforms/android/build/intermediates/pre-dexed/debug/classes-2cfc133653cf882ee0949fd3e682abed805c5266.jar

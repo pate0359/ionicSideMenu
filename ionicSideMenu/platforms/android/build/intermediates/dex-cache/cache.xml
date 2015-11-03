@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Applications/MAMP/htdocs/Semester3/HTML5MobileApp/ionicSideMenu/ionicSideMenu/platforms/android/build/intermediates/exploded-aar/android/CordovaLib/unspecified/debug/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="b6f00c021c1cf5200de108e743795a058dacdf6c">
+        <dex dex="/Applications/MAMP/htdocs/Semester3/HTML5MobileApp/ionicSideMenu/ionicSideMenu/platforms/android/build/intermediates/pre-dexed/debug/classes-831ae36e41ed7dfcc52a3c3a979e92274da45200.jar" />
+    </item>
+    <item
+        jar="/Applications/MAMP/htdocs/Semester3/HTML5MobileApp/ionicSideMenu/ionicSideMenu/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="/Applications/MAMP/htdocs/Semester3/HTML5MobileApp/ionicSideMenu/ionicSideMenu/platforms/android/build/intermediates/pre-dexed/debug/classes-2cfc133653cf882ee0949fd3e682abed805c5266.jar" />
+    </item>
+    <item
+        jar="/Applications/MAMP/htdocs/Semester3/HTML5MobileApp/ionicSideMenu/ionicSideMenu/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/libs/internal_impl-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
+        <dex dex="/Applications/MAMP/htdocs/Semester3/HTML5MobileApp/ionicSideMenu/ionicSideMenu/platforms/android/build/intermediates/pre-dexed/debug/internal_impl-23.1.0-c18b0e681fc8c4ba2a4fc54eb5128fb3d3a3b0a0.jar" />
+    </item>
+    <item
+        jar="/Applications/ADT/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.0/support-annotations-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
+        <dex dex="/Applications/MAMP/htdocs/Semester3/HTML5MobileApp/ionicSideMenu/ionicSideMenu/platforms/android/build/intermediates/pre-dexed/debug/support-annotations-23.1.0-12ea6868a9f89b1da426f43b4a5a659b77628256.jar" />
+    </item>
+
+</items>
