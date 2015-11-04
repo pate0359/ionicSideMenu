@@ -1,40 +1,42 @@
 /* Empty. Add your own CSS if you like */
+
+/*Item Completed*/
 .item-done {
-  text-decoration:  line-through;	
+	text-decoration: line-through;
 }
 
-.margin-right-10{	
-	margin-right: 10px;
+.groupHeader{
+	color: #eee;
+}
+/*For Footer textInput and button*/
+.fillWidth {
+	width: 100%;
 }
 
-.margin-right-5{	
-	margin-right: 5px;
-}
-
-.hideSeparator
-{
-border-top: 0px;
-border-left: 0px;
-border-right: 0px;
-border-bottom: 0px;
-}
-
-.item-divider
-{
+/*For Menu*/
+.my-menu {
 	background-color: #555;
 }
 
-
-.my-menu {
-  background-color: #555;	
+.item-divider {
+	background-color: #555;
+}
+.hideSeparator {
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-bottom: 0px;
 }
 
-
-/*
-.my-menu .item, .my-menu .item-content, .my-menu .item-complex{
-  background-color: #444;
-	
-  color: #FFF;
-  border-color: rgba(0,0,0,0);
+/*Margin*/
+.margin-right-10 {
+	margin-right: 10px;
 }
-*/
+
+.margin-right-5 {
+	margin-right: 5px;
+}
+
+.margin-bottom-10 {
+	margin-bottom: 10px;
+}

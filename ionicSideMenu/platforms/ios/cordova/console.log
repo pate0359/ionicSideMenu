@@ -111,3 +111,12 @@
 2015-11-02 01:41:44.868 ionicSideMenu[16557:1360267] {"isVibrate":true,"isNotify":true}
 2015-11-02 04:00:51.928 ionicSideMenu[16557:1490564] XPC connection interrupted
 2015-11-02 04:00:51.929 ionicSideMenu[16557:1490569] Terminating since there is no system app.
+2015-11-03 19:08:59.211 ionicSideMenu[3112:317699] Apache Cordova native platform version 3.8.0 is starting.
+2015-11-03 19:08:59.217 ionicSideMenu[3112:317699] Multi-tasking -> Device: YES, App: YES
+2015-11-03 19:08:59.234 ionicSideMenu[3112:317699] Unlimited access to network resources
+2015-11-03 19:09:00.151 ionicSideMenu[3112:317699] [CDVTimer][splashscreen] 530.986965ms
+2015-11-03 19:09:00.160 ionicSideMenu[3112:317699] [CDVTimer][statusbar] 8.482993ms
+2015-11-03 19:09:00.160 ionicSideMenu[3112:317699] [CDVTimer][keyboard] 0.353038ms
+2015-11-03 19:09:00.161 ionicSideMenu[3112:317699] [CDVTimer][TotalPluginStartup] 540.428042ms
+2015-11-03 19:09:00.247 ionicSideMenu[3112:317699] Resetting plugins due to page load.
+2015-11-03 19:09:00.481 ionicSideMenu[3112:317699] Finished load of: file:///Users/NiGi/Library/Developer/CoreSimulator/Devices/0A12CFE9-1446-488C-A39A-288F3933ADDB/data/Containers/Bundle/Application/45A7EEC3-3015-4DAA-8117-C0188711C10E/ionicSideMenu.app/www/index.html#/app/list/1

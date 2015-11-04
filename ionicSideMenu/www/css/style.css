@@ -5,6 +5,12 @@
 	text-decoration: line-through;
 }
 
+.groupHeader{
+	color: #eee;
+	border-width: thin;
+	border-bottom: 2px solid #eee;
+/*	border-top: 2px solid #eee;*/
+}
 /*For Footer textInput and button*/
 .fillWidth {
 	width: 100%;

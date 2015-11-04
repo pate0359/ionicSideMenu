@@ -13,6 +13,11 @@ angular.module('starter.localStorageService', [])
 			
 			return isSupported;
 		},
+		getMenuItems: function () {
+
+			var storage = localStorageService.get(localStorageKey);
+			return storage.menuList;
+		},
 		getItems: function (listId) {
 
 			var storage = localStorageService.get(localStorageKey);
@@ -25,13 +30,32 @@ angular.module('starter.localStorageService', [])
 			storage.menuList[listId-1].listItems=listItems;
 			//update local storage
 			localStorageService.set(localStorageKey, storage);
-			
+						
 		},
 		getListTitle: function (listId) {
 
 			var storage = localStorageService.get(localStorageKey);
 			var title=storage.menuList[listId-1].title;
 			return title;
+		},
+		addMenuItem: function (menuTitle) {
+
+			var menuItems = this.getMenuItems();
+			
+			var newMenuItem = {};
+			
+			newMenuItem.id=menuItems.length+1;
+			newMenuItem.icon="ion-bag";
+			newMenuItem.default=0;
+			newMenuItem.title = menuTitle;
+			newMenuItem.listItems = [];
+			menuItems.push(newMenuItem);
+			
+			var storage = localStorageService.get(localStorageKey);
+			storage.menuList=menuItems;
+			localStorageService.set(localStorageKey, storage);
+			
+			return menuItems;
 		},
 		addItem: function (listId, itemTitle) {
 
@@ -103,20 +127,29 @@ angular.module('starter.localStorageService', [])
 			var menuList = [];
 
 			var shoping = {};
+			shoping.id="1";
+			shoping.icon="ion-bag";
+			shoping.default=1;
 			shoping.title = "Shopping List";
 			shoping.listItems = [];
 			menuList.push(shoping);
 
 			var clipboards = {};
+			clipboards.id="2"
+			clipboards.icon="ion-clipboard";
+			clipboards.default=1;
 			clipboards.title = "Clipboards";
 			clipboards.listItems = [];
 			menuList.push(clipboards);
 
 			var events = {};
+			events.id="3";
+			events.icon="ion-calendar";
 			events.title = "Events";
+			events.default=1;
 			events.listItems = [];
 			menuList.push(events);
-
+			
 			storage.menuList = menuList;
 
 			//default local storage

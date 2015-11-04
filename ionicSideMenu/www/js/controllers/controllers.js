@@ -4,12 +4,6 @@ app.controller('ListController', function ($scope, $stateParams,LocalStorage,And
 	//Enable Swipe on list item
 	 $scope.listCanSwipe = true;
 
-	//Check for local storage support
-	if (!LocalStorage.isSupported()) {
-		alert("Local Storage not supported");
-		return;
-	}
-	
 	//Get application settings from local storage
 	$scope.setting=LocalStorage.getSettings();
 

@@ -1,23 +1,23 @@
-angular.module('starter.services1', [])
-
+angular.module('starter.androidUtilService', [])
 .factory('AndroidUtils', function ($cordovaVibration, $cordovaLocalNotification) {
 
 	return {
-		vibrate: function () {
-			
-			navigator.vibrate(1000);
+		//make device vibrate for 200 ms
+		vibrate: function () {			
+			navigator.vibrate(200);
 			return;
 		},
-		schedleNotification: function () {
+		//Add local notification when all list items are completed.
+		schedleNotification: function (listTitle) {			
+			var msg='Your '+listTitle+' marked as completed.';
 			$cordovaLocalNotification.schedule({
 				id: 1,
-				title: 'Title here',
-				text: 'Text here',
+				title: 'To Do',
+				text: msg,
 				data: {
-					customProperty: 'custom value'
+					customProperty: ''
 				}
 			}).then(function (result) {
-			
 				console.log(result);
 			});
 			return;
